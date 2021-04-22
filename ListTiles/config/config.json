@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listTiles/ListTilesWebPart.js",
+          "manifest": "./src/webparts/listTiles/ListTilesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListTilesWebPartStrings": "lib/webparts/listTiles/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

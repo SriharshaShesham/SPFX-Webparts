@@ -1,0 +1,88 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+// define variables first
+$themePrimary: "[theme:themeDark, default:#0078d7]";
+$themePrimaryDarker: "[theme:themeDarker, default:#0078d7]";
+$themeTertiary: "[theme:themeTertiary, default:#0078d7]";
+$themeWhite: "[theme:white, default:white]";
+$themeLight: "[theme:light, default:white]";
+$flexRow: "row";
+$flexColumn: "column";
+
+.topThreeBlock {
+  
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    border-spacing: 0px;
+    background-color: $themePrimary;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: inherit;
+    text-decoration: none;
+    touch-action: manipulation;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    flex-basis: 30%;
+    height: 10.8rem;
+
+
+  &:hover {
+    background-color: $themePrimaryDarker !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: $themeWhite;
+    box-shadow: 0 5px 7px 0 #00000029, 0 2px 20px 5px #0000001f;
+    transition: ease 0.5s box-shadow;
+
+  }
+
+  .title {
+    color: $themeWhite;
+    font-size: 1.5rem !important;
+  }
+
+  .isHidden {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+
+  .section {
+    font-family: "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    border-spacing: 0px;
+    -webkit-box-direction: normal;
+    word-wrap: break-word;
+    text-align: center;
+    color: #fff;
+    box-sizing: inherit;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    // width: 80%;
+    .toolTip {
+      
+      margin: 0 0 1.25rem;
+      padding: 0;
+      padding-top: 1rem;
+      font-size: 1.2rem;
+      color: $themeWhite;
+      opacity: 1;
+      transition: all 0.5s ease;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+
+// define variables first
+$themePrimary: '[theme:themeDarker, default:#0078d7]';
+$themeWhite: '[theme:white, default:white]';
+$themeLight: '[theme:light, default:white]';
+$themePrimaryDarker: "[theme:themeDarker, default:#0078d7]";
+
+.header {
+  border-spacing: 0px;
+  font-family: "Segoe UI Semilight", "Segoe UI", "Segoe", Tahoma, Helvetica,
+    Arial, sans-serif;
+  color: #262626;
+  box-sizing: inherit;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  background-image: linear-gradient($themeWhite 50%, $themePrimary 0, $themePrimary 55%, $themeWhite 0);
+
+  
+  .text {
+    border-spacing: 0px;
+    font-family: "Segoe UI Semilight", "Segoe UI", "Segoe", Tahoma, Helvetica,
+      Arial, sans-serif;
+    color: $themePrimaryDarker;
+    font-weight: 500;
+    text-align: center;
+    box-sizing: inherit;
+    background-color: $themeWhite;
+    display: inline-block;
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

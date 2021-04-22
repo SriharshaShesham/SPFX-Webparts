@@ -1,0 +1,30 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+
+// define variables first
+$themePrimary: '[theme:themeDarker, default:#0078d7]';
+$themeWhite: '[theme:white, default:white]';
+$themeLight: '[theme:light, default:white]';
+
+
+.icon
+{
+    
+    text-align: center;
+    box-sizing: inherit;
+    max-width: 100%;
+    fill: $themeWhite;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    padding:1rem;
+}
+
+.iconTiles{
+    font-size: 3rem;
+}
+
+.iconQuicklinks{
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}

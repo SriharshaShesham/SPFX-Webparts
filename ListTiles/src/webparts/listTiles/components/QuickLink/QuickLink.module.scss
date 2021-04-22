@@ -1,0 +1,52 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+// define variables first
+$themePrimary: "[theme:themeDark, default:#0078d7]";
+$themePrimaryDarker: "[theme:themeDarker, default:#0078d7]";
+$themeTertiary: "[theme:themeTertiary, default:#0078d7]";
+$themeWhite: "[theme:white, default:white]";
+$themeLight: "[theme:light, default:white]";
+$flexRow: "row";
+$flexColumn: "column";
+
+
+.quickLink
+{
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    letter-spacing: 0.04em !important;
+    line-height: 1.5 !important;
+    text-rendering: optimizespeed !important;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+    text-align: inherit;
+    position: relative;
+    display: block;
+    // padding: 0.75rem 1.25rem;
+    background: $themePrimary;
+    color: $themeWhite !important;
+    border: 1px solid $themeWhite;
+    border-top-width: 0;
+    align-items: center;
+    
+    &:hover {
+        background-color: $themePrimaryDarker !important;
+        cursor: pointer;
+        text-decoration: none !important;
+        color: $themeWhite;
+        box-shadow: 0 5px 7px 0 #00000029, 0 2px 20px 5px #0000001f;
+        transition: ease 0.5s box-shadow;
+    
+      }
+
+      
+    .title
+    {
+        font-size: 1.2rem;
+        // font-weight: bold !important;
+        padding:1rem;
+    }
+}
