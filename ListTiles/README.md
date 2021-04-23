@@ -1,10 +1,13 @@
-# SPFX-Webparts
+# List Tiles Webpart
 
 ## Summary
 
-As a person working in and out on SharePoint I had to design many applications that are based of SharePoint lists.
+This webpart allows to .
 
-[picture of the solution in action, if possible]
+[List Tiles - Boxed Tiles]<img src="../CatalogImages/BoxedTiles.png" width="15%"></img> 
+[List Tiles - Quick Links]<img src="../CatalogImages/QuickLinks.png" width="15%"></img> 
+[List Tiles - Top Three Tiles]<img src="../CatalogImages/Top%20Three.png" width="15%"></img> 
+[List Tiles - Settings]<img src="../CatalogImages/TilesOptions.png" width="15%"></img> 
 
 ## Used SharePoint Framework Version
 
@@ -15,24 +18,16 @@ As a person working in and out on SharePoint I had to design many applications t
 - [SharePoint Framework](https://aka.ms/spfx)
 - [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
-## Prerequisites
 
-> Any special pre-requisites?
 
-## Solution
-
-Solution|Author(s)
---------|---------
-folder name | Author details (name, company, twitter alias with link)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+1.1|Apr 22, 2021|List Tiles Final release
+1.0|Apr 15, 2021|List Tiles Initial release
 
 ## Disclaimer
 
@@ -48,23 +43,19 @@ Version|Date|Comments
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
+- Before you package the solution please update your CDN path. The current path points to my site.
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+Below are the SPFX webparts/extensions in this repository :
 
-This extension illustrates the following concepts:
+- List Tiles Webpart
+- Meet the team (Coming soon)
 
-- topic 1
-- topic 2
-- topic 3
+> I will write a detailed blog post for each of these webparts and post the links here
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
 
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
-
-## References
+## Useful Resources
 
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 - [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)

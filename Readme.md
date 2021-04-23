@@ -4,7 +4,21 @@
 
 As a person working in and out on SharePoint I had to design many applications that are based of SharePoint lists. So in most of my applications SharePoint lists are the backend and I design front end to it. And I feel it comfortable as we can update the UI by updating the list. I will host some of the useful SPFX Webparts and extensions here which are not available elsewhere on the web(at least by the time I created this).
 
-[picture of the solution in action, if possible]
+## Features
+
+Below are the SPFX webparts/extensions in this repository :
+
+- List Tiles Webpart
+- Meet the team (Coming soon)
+
+> I will write a detailed blog post for each of these webparts and post the links here
+
+
+
+[List Tiles - Boxed Tiles]<img src="../CatalogImages/BoxedTiles.png" width="15%"></img> 
+[List Tiles - Quick Links]<img src="../CatalogImages/QuickLinks.png" width="15%"></img> 
+[List Tiles - Top Three Tiles]<img src="../CatalogImages/Top%20Three.png" width="15%"></img> 
+[List Tiles - Settings]<img src="../CatalogImages/TilesOptions.png" width="15%"></img> 
 
 ## Used SharePoint Framework Version
 
@@ -42,15 +56,6 @@ Version|Date|Comments
 
 - Before you package the solution please update your CDN path. The current path points to my site.
 
-## Features
-
-Below are the SPFX webparts/extensions in this repository :
-
-- List Tiles Webpart
-  <img src="./CatalogImages/BoxedTiles.png" width="15%"></img> <img src="./CatalogImages/QuickLinks.png" width="15%"></img> <img src="./CatalogImages/Top%20Three.png" width="15%"></img> <img src="./CatalogImages/TilesOptions.png" width="15%"></img> 
-- Meet the team (Coming soon)
-
-> I will write a detailed blog post for each of these webparts and post the links here
 
 
 ## Useful Resources
