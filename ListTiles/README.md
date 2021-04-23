@@ -44,7 +44,7 @@ From the property pane the mandatory fields are List and Icon. Below are the var
     This is only used for the Boxed View. It adds a header to the boxed view.
 
 
-<img src="./CatalogImages/TilesOptions.png"  width="500" align="center"></img>
+<img src="../CatalogImages/TilesOptions.png"  width="300" align="center"></img>
     
 ---
     
