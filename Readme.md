@@ -15,10 +15,10 @@ Below are the SPFX webparts/extensions in this repository :
 
 
 
-[List Tiles - Boxed Tiles]<img src="../CatalogImages/BoxedTiles.png" width="15%"></img> 
-[List Tiles - Quick Links]<img src="../CatalogImages/QuickLinks.png" width="15%"></img> 
-[List Tiles - Top Three Tiles]<img src="../CatalogImages/Top%20Three.png" width="15%"></img> 
-[List Tiles - Settings]<img src="../CatalogImages/TilesOptions.png" width="15%"></img> 
+[List Tiles - Boxed Tiles](<img src="./CatalogImages/BoxedTiles.png" width="15%"></img>)
+[List Tiles - Quick Links](<img src="./CatalogImages/QuickLinks.png" width="15%"></img>)
+[List Tiles - Top Three Tiles](<img src="./CatalogImages/Top%20Three.png" width="15%"></img>)
+[List Tiles - Settings](<img src="./CatalogImages/TilesOptions.png" width="15%"></img>)
 
 ## Used SharePoint Framework Version
 
