@@ -1,6 +1,7 @@
 # List Tiles Webpart
 
 This webpart allows to have three types of views from a list. All the views are sortable and can have a flag to show or hide the tiles. There are also optional properties that you can set like hyperlinks,texts and tooltips.
+<img src="../CatalogImages/Overall.png"   width="500" align="center"></img>
 
 ## Views in this webpart
 
@@ -14,7 +15,7 @@ Allows you to set tiles in a boxed view from items in your list with header as o
 
 ### Quick Links view
 This view allows you to have all the tiles stacked up.  
-<img src="../CatalogImages/QuickLinks.png"   width="500" align="center"></img> 
+<img src="../CatalogImages/QuickLinks.png"   width="100" align="center"></img> 
 
 ## Webpart Properties
 From the property pane the mandatory fields are List and Icon. Below are the various properties and their use
@@ -23,7 +24,7 @@ From the property pane the mandatory fields are List and Icon. Below are the var
 #### Type of View (Mandatory) 
     Title of the list to display the information from
 #### Icon (Mandatory)   [SharePoint Column Type: Single line] 
-    Icon field is the base for this webpart. You need to select the column with icon name in it. You may grab the name of any icon from the ["React-Icons Repository"](https://react-icons.github.io/react-icons/). 
+    Icon field is the base for this webpart. You need to select the column with icon name in it. You may grab the name of any icon from the React-Icons Repository (https://react-icons.github.io/react-icons/). 
 #### Title   [SharePoint Column Type: Single line] 
     Used as a hover text for the Top Three view and as a link text for Boxed and Quicklinks view
 #### Tooltip   [SharePoint Column Type: Single line] 
@@ -77,7 +78,7 @@ Version|Date|Comments
 
 
 
-## Useful Resources
+## Useful Resources and References
 
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)

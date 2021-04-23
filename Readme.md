@@ -42,7 +42,7 @@ Version|Date|Comments
 ---
 
 
-## Useful Resources
+## Useful Resources and References
 
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
