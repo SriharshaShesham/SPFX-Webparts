@@ -1,21 +1,21 @@
 # List Tiles Webpart
 
-This webpart allows to have three types of views from a list. All the views are sortable and can have a flag to show or hide the tiles. There are also optional properties that you can set like hyperlinks,texts and tooltips.
-<img src="../CatalogImages/Overall.png"   width="500" align="center"></img>
+This webpart allows to have three types of views from a list. All the views are sortable and can have a flag to show or hide the tiles. There are also optional properties that you can set like hyperlinks,texts and tooltips.  
+<img src="../CatalogImages/Overall.png"   width="1000" align="center"></img>
 
 ## Views in this webpart
 
 ### Top Three Tiles view
-Allows you to show three tiles from your list on the top.  
+Allows you to show three tiles from your list on the top.    
 <img src="../CatalogImages/Top%20Three.png"   width="500" align="center"></img>
 
 ### Boxed Tiles view
-Allows you to set tiles in a boxed view from items in your list with header as optional.  
+Allows you to set tiles in a boxed view from items in your list with header as optional.    
 <img src="../CatalogImages/BoxedTiles.png"   width="500" align="center"></img>
 
 ### Quick Links view
-This view allows you to have all the tiles stacked up.  
-<img src="../CatalogImages/QuickLinks.png"   width="100" align="center"></img> 
+This view allows you to have all the tiles stacked up.    
+<img src="../CatalogImages/QuickLinks.png"   width="250" align="center"></img> 
 
 ## Webpart Properties
 From the property pane the mandatory fields are List and Icon. Below are the various properties and their use
