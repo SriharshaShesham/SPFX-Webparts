@@ -127,7 +127,7 @@ export default class ListTilesWebPart extends BaseClientSideWebPart<IListTilesWe
                 // Single column selection returning 'Internal Name' of the selected column
 
                 PropertyPaneDropdown('displayType', {
-                  label: 'Dropdown',
+                  label: 'Type of View',
                   options: [
                     { key: '1', text: 'Boxed Tiles'},
                     { key: '2', text: 'Top Three Tiles' },

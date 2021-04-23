@@ -6,25 +6,40 @@ This webpart allows to have three types of views from a list. All the views are 
 
 ### Top Three Tiles view
 Allows you to show three tiles from your list on the top.
-<img src="./CatalogImages/Top%20Three.png" width="40%"></img>
+<img src="../CatalogImages/Top%20Three.png" width="40%"></img>
 
 ### Boxed Tiles view
 Allows you to set tiles in a boxed view from items in your list with header as optional.
-<img src="./CatalogImages/BoxedTiles.png" width="40%"></img>
+<img src="../CatalogImages/BoxedTiles.png" width="40%"></img>
 
 ### Quick Links view
 This view allows you to have all the tiles stacked up. 
-<img src="./CatalogImages/QuickLinks.png" width="40%"></img> 
+<img src="../CatalogImages/QuickLinks.png" width="40%"></img> 
 
 ## Webpart Properties
 From the property pane the mandatory fields are List and Icon. Below are the various properties and their use
-#### List (Mandatory): Title of the list to display the information from
-#### Icon (Mandatory): [SharePoint Column Type: Single line] Icon field is the base for this webpart. You need to select the column with icon name in it. You may grab the name of any icon from the ["React-Icons Repository"](https://react-icons.github.io/react-icons/). 
-#### Title: [SharePoint Column Type: Single line] Used as a hover text for the Top Three view and as a link text for Boxed and Quicklinks view
-#### Tooltip: [SharePoint Column Type: Single line] As the name says it is a tooltip text when you hover over the tiles.
-#### Show/Hide flag: [SharePoint Column Type: Single line] This column should have true/false value based on which the tiles either are shown or hidden.
-#### Sort Order: [SharePoint Column Type: Number] Column to sort the tiles based on how you need them to show (not how Sharepoint wants).
-#### Hyperlink: [SharePoint Column Type: Single Line] The link you want the users to navigate to upon clicking the tiles.
+#### List Title (Mandatory) 
+    Title of the list to display the information from
+#### Type of View (Mandatory) 
+    Title of the list to display the information from
+#### Icon (Mandatory)
+   [SharePoint Column Type: Single line] 
+   Icon field is the base for this webpart. You need to select the column with icon name in it. You may grab the name of any icon from the ["React-Icons Repository"](https://react-icons.github.io/react-icons/). 
+#### Title
+   [SharePoint Column Type: Single line] 
+   Used as a hover text for the Top Three view and as a link text for Boxed and Quicklinks view
+#### Tooltip
+   [SharePoint Column Type: Single line] 
+   As the name says it is a tooltip text when you hover over the tiles.
+#### Show/Hide flag
+   [SharePoint Column Type: Single line] 
+   This column should have true/false value based on which the tiles either are shown or hidden.
+#### Sort Order
+   [SharePoint Column Type: Number] 
+   Column to sort the tiles based on how you need them to show (not how Sharepoint wants).
+#### Hyperlink
+   [SharePoint Column Type: Single Line] 
+   The link you want the users to navigate to upon clicking the tiles.
 <img src="./CatalogImages/TilesOptions.png" width="40%"></img>
 
 ## Used SharePoint Framework Version
