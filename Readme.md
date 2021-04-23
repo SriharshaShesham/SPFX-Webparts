@@ -8,17 +8,14 @@ As a person working in and out on SharePoint I had to design many applications t
 
 Below are the SPFX webparts/extensions in this repository :
 
-- List Tiles Webpart
+- [List Tiles Webpart](./ListTiles)
 - Meet the team (Coming soon)
 
 > I will write a detailed blog post for each of these webparts and post the links here
 
 
 
-[List Tiles - Boxed Tiles](<img src="./CatalogImages/BoxedTiles.png" width="15%"></img>)
-[List Tiles - Quick Links](<img src="./CatalogImages/QuickLinks.png" width="15%"></img>)
-[List Tiles - Top Three Tiles](<img src="./CatalogImages/Top%20Three.png" width="15%"></img>)
-[List Tiles - Settings](<img src="./CatalogImages/TilesOptions.png" width="15%"></img>)
+|<img src="./CatalogImages/BoxedTiles.png" width="15%"></img>| <img src="./CatalogImages/QuickLinks.png" width="15%"></img>| <img src="./CatalogImages/Top%20Three.png" width="15%"></img> |<img src="./CatalogImages/TilesOptions.png" width="15%"></img>|
 
 ## Used SharePoint Framework Version
 
