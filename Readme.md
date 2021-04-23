@@ -11,11 +11,9 @@ Below are the SPFX webparts/extensions in this repository :
 - [List Tiles Webpart](./ListTiles)
 - Meet the team (Coming soon)
 
-> I will write a detailed blog post for each of these webparts and post the links here
 
 
 
-|<img src="./CatalogImages/BoxedTiles.png" width="15%"></img>| <img src="./CatalogImages/QuickLinks.png" width="15%"></img>| <img src="./CatalogImages/Top%20Three.png" width="15%"></img> |<img src="./CatalogImages/TilesOptions.png" width="15%"></img>|
 
 ## Used SharePoint Framework Version
 
@@ -43,20 +41,10 @@ Version|Date|Comments
 
 ---
 
-## Minimal Path to Awesome
-
-- Clone this repository
-- Ensure that you are at the solution folder
-- in the command-line run:
-  - **npm install**
-  - **gulp serve**
-
-- Before you package the solution please update your CDN path. The current path points to my site.
-
-
 
 ## Useful Resources
 
+- [React Icons](https://react-icons.github.io/react-icons/)
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 - [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
