@@ -2,7 +2,7 @@
 
 ## Summary
 
-As a person working in and out on SharePoint I had to design many applications that are based of SharePoint lists. So in most of my applications SharePoint lists are the backend and I design front end to it. And I feel it comfortable as we can update the UI by updating the list. I will host some of the useful SPFX Webparts and extensions here which are not available elsewhere on the web(at least by the time I created this).
+As a person working in and out on SharePoint I had to design many applications that are based of SharePoint lists.
 
 [picture of the solution in action, if possible]
 
@@ -15,16 +15,24 @@ As a person working in and out on SharePoint I had to design many applications t
 - [SharePoint Framework](https://aka.ms/spfx)
 - [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 
+> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
+## Prerequisites
 
+> Any special pre-requisites?
 
+## Solution
+
+Solution|Author(s)
+--------|---------
+folder name | Author details (name, company, twitter alias with link)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|Apr 22, 2021|List Tiles Final release
-1.0|Apr 15, 2021|List Tiles Initial release
+1.1|March 10, 2021|Update comment
+1.0|January 29, 2021|Initial release
 
 ## Disclaimer
 
@@ -40,20 +48,23 @@ Version|Date|Comments
   - **npm install**
   - **gulp serve**
 
-- Before you package the solution please update your CDN path. The current path points to my site.
+> Include any additional steps as needed.
 
 ## Features
 
-Below are the SPFX webparts/extensions in this repository :
+Description of the extension that expands upon high-level summary above.
 
-- List Tiles Webpart
-  <img src="./CatalogImages/BoxedTiles.png" width="15%"></img> <img src="./CatalogImages/QuickLinks.png" width="15%"></img> <img src="./CatalogImages/Top%20Three.png" width="15%"></img> <img src="./CatalogImages/TilesOptions.png" width="15%"></img> 
-- Meet the team (Coming soon)
+This extension illustrates the following concepts:
 
-> I will write a detailed blog post for each of these webparts and post the links here
+- topic 1
+- topic 2
+- topic 3
 
+> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
 
-## Useful Resources
+> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+
+## References
 
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 - [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
